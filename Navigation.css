@@ -1,0 +1,71 @@
+.navbar {
+  width: 100vw;
+  overflow: hidden;
+  background: #2abb8f;
+}
+.app-logo .p,
+.search {
+  margin: 0;
+}
+
+.app-logo {
+  width: 20%;
+  justify-content: flex-start;
+}
+.app-logo p {
+  font-size: 32px;
+  font-weight: 700;
+  color: #f3cc2f;
+  transition: all 0.3s ease-in;
+}
+.app-logo p:hover {
+  transform: scale(1.2);
+}
+.app-logo .logo-span {
+  color: #fff;
+}
+.search {
+  width: 40%;
+}
+.search-in {
+  width: 50%;
+  padding: 15px 20px;
+}
+.search-in::placeholder {
+  font-size: 16px;
+}
+.search-in:focus,
+.search-in:hover {
+  outline: 1px solid #2f109f;
+}
+.filter-topic-navbar {
+  width: 50%;
+  margin: 0 25%;
+}
+.filter-topic-navbar .search-cats {
+  font-size: 20px;
+  font-weight: 500;
+  width: 120px;
+  padding: 10px;
+  color: #ece8e8;
+  transition: all 0.2s ease-in;
+}
+.filter-topic-navbar .search-cats:hover {
+  color: #fff;
+  background-color: #10a377;
+}
+.b1 {
+  background: skyblue;
+}
+.b2 {
+  background: orange;
+}
+.b3 {
+  background: purple;
+}
+.b4 {
+  background: rgb(249, 43, 78);
+}
+.b5 {
+  background: rgb(20, 225, 150);
+}

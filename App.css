@@ -1,0 +1,58 @@
+.df {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.dfc {
+  display: flex;
+  flex-direction: column;
+}
+.wrap {
+  flex-wrap: wrap;
+}
+.bet {
+  justify-content: space-between;
+}
+.around {
+  justify-content: space-around;
+}
+.evenly {
+  justify-content: space-evenly;
+}
+.m1 {
+  margin: 10px;
+}
+.p1 {
+  padding: 10px;
+}
+.p12 {
+  padding: 10px 20px;
+}
+
+.bnone {
+  border: none;
+}
+.b1 {
+  border: 1px solid;
+}
+.bround {
+  border-radius: 25px;
+}
+.br1 {
+  border-radius: 6px;
+}
+.br2 {
+  border-radius: 9px;
+}
+.br3 {
+  border-radius: 12px;
+}
+.no-deco {
+  text-decoration: none;
+}
+.no-o-line {
+  outline: none;
+}
+.focus {
+  border: 1px solid;
+}
